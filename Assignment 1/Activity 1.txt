@@ -1,1 +1,16 @@
-Food preparation instructions go here ...
+Pseudocode to make a turkey sandwich.
+
+1.	Start with two pieces of bread.
+2.	Place the two pieces of bread on a plate.
+3.	Prepare the ingredients.
+•	Slice the tomato.
+•	Get 4 slices of oven roasted turkey.
+•	Get two pieces of Romain lettuce.
+•	Get two slices of your choice of cheese.
+•	Get the mayo.
+4.	Spread the Mayo on one side of the two pieces of the bread.
+5.	Place the cheese on the top of the Mayo of the two pieces of the bread.
+6.	Place the turkey slices on the top of the cheese of one piece of the bread.
+7.	Place the sliced tomato and the lettuce on the top of the turkey of one piece of the bread.
+8.	Place the cheese and Mayo of the second piece of bread against the side of the first piece of bread with all the ingredients.
+9.	Place sandwich on plate and cut in half.
