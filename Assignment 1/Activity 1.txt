@@ -1,19 +1,19 @@
 Pseudocode to make a turkey sandwich.
 
 1.	Start preparing the working area for the sandwich.
-o	To make the sandwich we will need the following:
-	Cutting board
-	Knife
-	Spoon
-o	Open the kitchen drawer to get items needed to make the sandwich.
-o	Place the cutting board, knife, and the spoon on the kitchen counter.
+    o	To make the sandwich we will need the following:
+        	Cutting board
+        	Knife
+        	Spoon
+        o	Open the kitchen drawer to get items needed to make the sandwich.
+        o	Place the cutting board, knife, and the spoon on the kitchen counter.
 2.	Ingredients needed for the sandwich.
-o	One tomato
-o	One leaf of Romain lettuce
-o	Two slices of cheese
-o	Four slices of oven roasted turkey
-o	Two slices of bread
-o	A jar of mayo
+        o	One tomato
+        o	One leaf of Romain lettuce
+        o	Two slices of cheese
+        o	Four slices of oven roasted turkey
+        o	Two slices of bread
+        o	A jar of mayo
 3.	Open the fridge to get the jar of mayo from the fridge door
 4.	While the fridge doors are open get the bag of the bread
 5.	Open the vegetable drawer of the fridge to get the tomato and the Romain lettuce 
@@ -42,4 +42,3 @@ o	A jar of mayo
 28.	Close the fridge
 29.	Wash the cutting board, knife, and spoon
 30.	Enjoy the sandwich
-
