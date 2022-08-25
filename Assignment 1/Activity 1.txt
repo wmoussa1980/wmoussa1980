@@ -1,16 +1,45 @@
 Pseudocode to make a turkey sandwich.
 
-1.	Start with two pieces of bread.
-2.	Place the two pieces of bread on a plate.
-3.	Prepare the ingredients.
-•	Slice the tomato.
-•	Get 4 slices of oven roasted turkey.
-•	Get two pieces of Romain lettuce.
-•	Get two slices of your choice of cheese.
-•	Get the mayo.
-4.	Spread the Mayo on one side of the two pieces of the bread.
-5.	Place the cheese on the top of the Mayo of the two pieces of the bread.
-6.	Place the turkey slices on the top of the cheese of one piece of the bread.
-7.	Place the sliced tomato and the lettuce on the top of the turkey of one piece of the bread.
-8.	Place the cheese and Mayo of the second piece of bread against the side of the first piece of bread with all the ingredients.
-9.	Place sandwich on plate and cut in half.
+1.	Start preparing the working area for the sandwich.
+o	To make the sandwich we will need the following:
+	Cutting board
+	Knife
+	Spoon
+o	Open the kitchen drawer to get items needed to make the sandwich.
+o	Place the cutting board, knife, and the spoon on the kitchen counter.
+2.	Ingredients needed for the sandwich.
+o	One tomato
+o	One leaf of Romain lettuce
+o	Two slices of cheese
+o	Four slices of oven roasted turkey
+o	Two slices of bread
+o	A jar of mayo
+3.	Open the fridge to get the jar of mayo from the fridge door
+4.	While the fridge doors are open get the bag of the bread
+5.	Open the vegetable drawer of the fridge to get the tomato and the Romain lettuce 
+6.	While the fridge doors are open get the cheese package and the turkey package
+7.	Place all the items on the kitchen counter
+8.	Close the fridge doors
+9.	Place the tomato on the cutting board and slice two slices around one inch each using the knife 
+10.	Place the two slices of the tomato on the corner of the cutting board
+11.	Place the leaf Romain lettuce on the cutting board and cut it into two halves using the knife
+12.	Open the bag of the bread and get two slices of bread
+13.	Place the two slices of bread on the cutting board
+14.	Open the mayo jar and use the spoon to get the mayo
+15.	Open the cheese package and get two slices
+16.	Open the turkey package and get four slices 
+17.	Use the spoon to spread the Mayo on one side of the two pieces of the bread.
+18.	Place the cheese on the top of the Mayo of the two pieces of the bread.
+19.	Place the turkey slices on the top of the cheese of one piece of the bread.
+20.	Place the sliced tomato and the lettuce on the top of the turkey of one piece of the bread.
+21.	Place the cheese and Mayo of the second piece of bread against the side of the first piece of bread with all the ingredients.
+22.	Use the knife to cut the sandwich into two halves
+23.	Open the kitchen cabinet to get a serving plate 
+24.	Place sandwich on plate.
+25.	Put the used cutting board, knife, and spoon in the kitchen sink
+26.	Close the mayo jar 
+27.	Open the fridge to return all the refrigerated items to its place
+28.	Close the fridge
+29.	Wash the cutting board, knife, and spoon
+30.	Enjoy the sandwich
+
