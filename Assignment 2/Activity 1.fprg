@@ -1,1 +1,17 @@
-
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wissammoussa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-29 10:09:53 PM"/>
+        <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA4LTI5OzEwOjA3OjI2IFBNOzM3MjU="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA4LTI5OzEwOjA5OjUzIFBNOzE7MzgzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;hello world&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
