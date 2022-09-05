@@ -1,8 +1,8 @@
 ﻿# this program will calculate weekly, monthly, and yearly gross pay.
 # References:Programming Fundamentals – A Modular Structured Approach, 2nd Edition
-print("Expecting rate")
+print("rate")
 rate = float(input())
-print("Expecting hours")
+print("hours")
 hours = float(input())
 weekly = hours * rate
 monthly = weekly * 4
