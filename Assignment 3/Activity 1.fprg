@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-04 08:03:37 PM"/>
+        <attribute name="saved" value="2022-09-04 08:12:53 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA2OjQ1OjM2IFBNOzM3Mjc="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA4OjAzOjM3IFBNOzY7MzgzNw=="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA4OjEyOjUzIFBNOzg7MzgzNw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,16 +16,16 @@
             <declare name="weekly" type="Real" array="False" size=""/>
             <declare name="monthly" type="Real" array="False" size=""/>
             <declare name="yearly" type="Real" array="False" size=""/>
-            <output expression="&quot;Enter rate&quot;" newline="True"/>
+            <output expression="&quot;rate&quot;" newline="True"/>
             <input variable="rate"/>
-            <output expression="&quot;Enter hours&quot;" newline="True"/>
+            <output expression="&quot;hours&quot;" newline="True"/>
             <input variable="hours"/>
             <assign variable="weekly" expression="hours*rate"/>
             <assign variable="monthly" expression="weekly*4"/>
             <assign variable="yearly" expression="weekly*52"/>
-            <output expression="&quot;Weekly pay is &quot; &amp;weekly" newline="True"/>
-            <output expression="&quot;Monthly pay is &quot; &amp;monthly" newline="True"/>
-            <output expression="&quot;Yearly gross pay is &quot; &amp;yearly" newline="True"/>
+            <output expression="&quot;Weekly &quot; &amp;weekly" newline="True"/>
+            <output expression="&quot;Monthly &quot; &amp;monthly" newline="True"/>
+            <output expression="&quot;Yearly &quot; &amp;yearly" newline="True"/>
         </body>
     </function>
 </flowgorithm>
