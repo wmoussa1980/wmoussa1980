@@ -1,6 +1,6 @@
-print("rate")
+print("rate per hour")
 rate = float(input())
-print("hours")
+print("hours worked per week")
 hours = float(input())
 weekly = hours * rate
 monthly = weekly * 4
