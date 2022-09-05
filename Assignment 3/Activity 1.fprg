@@ -4,21 +4,23 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-04 08:22:42 PM"/>
+        <attribute name="saved" value="2022-09-04 09:03:24 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA2OjQ1OjM2IFBNOzM3Mjc="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA4OjIyOjQyIFBNOzEwOzM4Nzc="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA5OjAzOjI0IFBNOzEzOzM4ODA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="this program will calculate weekly, monthly, and yearly gross pay."/>
+            <comment text="References:Programming Fundamentals &#8211; A Modular Structured Approach, 2nd Edition"/>
             <declare name="rate" type="Real" array="False" size=""/>
             <declare name="hours" type="Real" array="False" size=""/>
             <declare name="weekly" type="Real" array="False" size=""/>
             <declare name="monthly" type="Real" array="False" size=""/>
             <declare name="yearly" type="Real" array="False" size=""/>
-            <output expression="&quot;rate per hour&quot;" newline="True"/>
+            <output expression="&quot;Expecting rate&quot;" newline="True"/>
             <input variable="rate"/>
-            <output expression="&quot;hours worked per week&quot;" newline="True"/>
+            <output expression="&quot;Expecting hours&quot;" newline="True"/>
             <input variable="hours"/>
             <assign variable="weekly" expression="hours*rate"/>
             <assign variable="monthly" expression="weekly*4"/>
