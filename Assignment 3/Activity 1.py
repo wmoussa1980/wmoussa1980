@@ -1,10 +1,10 @@
-print("Enter hourly rate")
-hourlyrate = float(input())
-print("Enter weekly hours")
-weeklyhours = float(input())
-weeklypay = weeklyhours * hourlyrate
-monthlypay = weeklypay * 4
-yearlypay = weeklypay * 52
-print("Weekly pay is" + str(weeklypay))
-print("Monthly pay is " + str(monthlypay))
-print("Yearly gross pay is " + str(yearlypay))
+print("Enter rate")
+rate = float(input())
+print("Enter hours")
+hours = float(input())
+weekly = hours * rate
+monthly = weekly * 4
+yearly = weekly * 52
+print("Weekly pay is " + str(weekly))
+print("Monthly pay is " + str(monthly))
+print("Yearly gross pay is " + str(yearly))
