@@ -4,25 +4,25 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-04 09:08:42 PM"/>
+        <attribute name="saved" value="2022-09-04 09:21:12 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA2OjQ1OjM2IFBNOzM3Mjc="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA5OjA4OjQyIFBNOzE0OzM4ODY="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA5OjIxOjEyIFBNOzE3OzM4ODE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <comment text="this program will calculate weekly, monthly, and yearly gross pay."/>
             <comment text="References:Programming Fundamentals &#8211; A Modular Structured Approach, 2nd Edition"/>
-            <declare name="rate" type="Real" array="False" size=""/>
-            <declare name="hours" type="Real" array="False" size=""/>
+            <declare name="rateperhour" type="Real" array="False" size=""/>
+            <declare name="hoursnumber" type="Real" array="False" size=""/>
             <declare name="weekly" type="Real" array="False" size=""/>
             <declare name="monthly" type="Real" array="False" size=""/>
             <declare name="yearly" type="Real" array="False" size=""/>
-            <output expression="&quot;rate&quot;" newline="True"/>
-            <input variable="rate"/>
-            <output expression="&quot;hours&quot;" newline="True"/>
-            <input variable="hours"/>
-            <assign variable="weekly" expression="hours*rate"/>
+            <output expression="&quot;rate per hour&quot;" newline="True"/>
+            <input variable="rateperhour"/>
+            <output expression="&quot;hours number&quot;" newline="True"/>
+            <input variable="hoursnumber"/>
+            <assign variable="weekly" expression="hoursnumber*rateperhour"/>
             <assign variable="monthly" expression="weekly*4"/>
             <assign variable="yearly" expression="weekly*52"/>
             <output expression="&quot;Weekly &quot; &amp;weekly" newline="True"/>
