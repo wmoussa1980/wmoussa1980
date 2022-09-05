@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-04 08:14:59 PM"/>
+        <attribute name="saved" value="2022-09-04 08:22:42 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA2OjQ1OjM2IFBNOzM3Mjc="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA4OjE0OjU5IFBNOzk7Mzg0Ng=="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTA0OzA4OjIyOjQyIFBNOzEwOzM4Nzc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,9 +16,9 @@
             <declare name="weekly" type="Real" array="False" size=""/>
             <declare name="monthly" type="Real" array="False" size=""/>
             <declare name="yearly" type="Real" array="False" size=""/>
-            <output expression="&quot;rate&quot;" newline="True"/>
+            <output expression="&quot;rate per hour&quot;" newline="True"/>
             <input variable="rate"/>
-            <output expression="&quot;hours&quot;" newline="True"/>
+            <output expression="&quot;hours worked per week&quot;" newline="True"/>
             <input variable="hours"/>
             <assign variable="weekly" expression="hours*rate"/>
             <assign variable="monthly" expression="weekly*4"/>
