@@ -1,1 +1,20 @@
+This program will prompt the user for hours worked per week and rate per hour and then calculate the input and display their weekly, monthly, and annual gross pay.
 
+Input:
+
+    Display prompt the user for hours worked per week
+    Get the user for hours worked per week
+    Display prompt the user rate per hour
+    Get rate per hour
+
+Process:
+
+    Calculate the user weekly pay (hours*rate).
+    Calculate the user monthly pay (weekly pay *4).
+    Calculate the user yearly pay (monthly pay*12) or (weekly pay *52).
+
+Output:
+
+    Display the user weekly pay.
+    Display the user monthly pay.
+    Display the user yearly pay.
