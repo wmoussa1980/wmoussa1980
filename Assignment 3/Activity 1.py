@@ -4,7 +4,7 @@ print("Enter rate per hour")
 rate = float(input())
 print("Enter hours number")
 hours = float(input())
-weekly = hours * rate
+weekly = float(hours) * float(rate)
 monthly = weekly * 4
 yearly = weekly * 52
 print("Weekly pay " + str(weekly))
