@@ -12,4 +12,4 @@ dogage = age * 7
 # display the name and the age of their dog in dog years
 
 
-print(name,"is",str(dogage),"years old in dog years.")
+print(name, "is", str(dogage), "years old in dog years.")
