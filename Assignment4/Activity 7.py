@@ -5,7 +5,7 @@ name = input()
 print("Enter the age of your dog in human years")
 age = float(input())
 
-# Calculate the age of their dog in dog years, based on the popular myth that one human year equals seven dog years
+# Calculate the age of their dog in dog years.
 
 dogage = age * 7
 
