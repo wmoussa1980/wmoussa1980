@@ -12,3 +12,6 @@ The programming language I am going to be using for this class is Python. After 
 
 In this chapter, I learned about data types which is a classification of data that tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, including integer, real, character or string, and Boolean. Also, this chapter explained the IPO cycle that is defined as a computer procedure for the processing of information. In computation, it is a critical process through which users get the desired outcome. In the program for this chapter, we were able to use the IPO cycle by prompting the user for input and then getting the input, processing the input that we got from the user by using basic arithmetic operations and then displaying the result of the calculation to the user which is the output.
 In the assignment for this chapter, I learned how to follow carefully the instruction asked to do the program and I realized that every tiny detail matters to avoid having errors in the program. Also, I learned that a good program plan can save you time when doing a program.
+
+
+## Assignment 4
