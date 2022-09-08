@@ -1,4 +1,4 @@
-# This program will prompt the user for the name of their dog and its age in human years.
+# prompt the user for the name and the age of their dog.
 
 print("Enter the name of your dog")
 name = input()
