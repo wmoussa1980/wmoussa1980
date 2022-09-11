@@ -7,9 +7,9 @@ age = float(input())
 
 # Calculate the age of their dog in dog years.
 
-dogage = age * 7
+dog_age = age * 7
 
 # display the name and the age of their dog in dog years
 
 
-print(name, "is", str(dogage), "years old in dog years.")
+print(name, "is", str(dog_age), "years old in dog years.")
