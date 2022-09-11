@@ -9,7 +9,7 @@ Input:
 
 Process:
 
-Calculate the dog age in dog years using the popular myth one human year equals seven dog years (age in human years*7).
+    Calculate the dog age in dog years using the popular myth one human year equals seven dog years (age in human years*7).
 
 Output:
 
