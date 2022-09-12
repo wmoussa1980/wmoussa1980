@@ -18,3 +18,5 @@ In the assignment for this chapter, I learned how to follow carefully the instru
 
 In this assignment, I practiced the knowledge I learned in chapter 2 about data types and to create a program plan using a simple pseudocode format that follows the IPO model. The program plan introduces the overall program requirements and then describe the specific input, processing, and output requirements. Also, I learned that consistency is very important when learning a new programming language. The fact is I can’t learn to code by reading about it. The only way to learn is by coding, making a commitment to code every day or four times a week. Like everything in life practicing make you better.
 
+
+## Assignment 5
