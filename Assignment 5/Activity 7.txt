@@ -4,80 +4,80 @@ This program will prompt the user for the name of their dog and its age in human
 
 Main Program
 
-Get Name
+	Get Name
 
-Get Age
+	Get Age
 
-Calculate Dog Age
+	Calculate Dog Age
 
-Display Result
+	Display Result
 
  
 
 Get Age
 
-Parameters:
+	Parameters:
 
-None
+		None
 
-Process:
+	Process:
 
-Display Prompt
+		Display Prompt
 
-Get Age in human years
+		Get Age in human years
 
-Return Value:
+	Return Value:
 
-Age
+		Age
 
  Get Name
 
-Parameters:
+	Parameters:
 
-None
+		None
 
-Process:
+	Process:
 
-Display Prompt
+		Display Prompt
 
-Get Name
+		Get Name
 
-Return Value:
+	Return Value:
 
-Name
+		Name
 
 
 
 
 Calculate Dog Age
 
-Parameters:
+	Parameters:
 
-Age
+		Age
 	
-Process:
+	Process:
 
-Calculate real dog age (age*7)
+		Calculate real dog age (age*7)
 
-Return Value:
+	Return Value:
 
-Dog age
+		Dog age
 
  
 
 Display Result
 
-Parameters:
+	Parameters:
 
-Age
+		Age
 
-Dog age
+		Dog age
 
-Process:
+	Process:
 
-Display dog name and age 
+		Display dog name and age 
 
 Return Value:
 
-None
+	None
 
