@@ -24,7 +24,7 @@ Get Age
 
 		Display Prompt
 
-		Get Age in human years
+		Get Age 
 
 	Return Value:
 
