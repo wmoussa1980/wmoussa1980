@@ -22,6 +22,7 @@ def getName():
 
 # Main
 # This program will prompt the user for the name of their dog and its age in human years.
+
 name = getName()
 age = getAge()
 dogage = calculateDogage(age)
