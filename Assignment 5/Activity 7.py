@@ -1,4 +1,4 @@
-# References:Programming Fundamentals – A Modular Structured Approach, 2nd Edition
+# References: Programming Fundamentals – A Modular Structured Approach, 2nd Edition
 
 def calculateDogage(age):
     dogage = age * 7
