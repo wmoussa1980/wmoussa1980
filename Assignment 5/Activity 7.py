@@ -1,4 +1,6 @@
 # References: Programming Fundamentals – A Modular Structured Approach, 2nd Edition
+# This program will prompt the user for the name of their dog and its age in human years.
+
 
 def calculateDogage(age):
     dogage = age * 7
@@ -21,7 +23,6 @@ def getName():
     return name
 
 # Main
-# This program will prompt the user for the name of their dog and its age in human years.
 
 name = getName()
 age = getAge()
