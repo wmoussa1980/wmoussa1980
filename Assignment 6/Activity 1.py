@@ -35,9 +35,9 @@ def getHours():
 
 
 def displayResult(weekly_pay, monthly_pay, yearly_pay):
-    print("Weekly pay ",str(weekly_pay))
-    print("Monthly pay ",float(monthly_pay))
-    print("Yearly pay ",float(yearly_pay))
+    print("Weekly pay ", str(weekly_pay))
+    print("Monthly pay ", float(monthly_pay))
+    print("Yearly pay ", float(yearly_pay))
        
 # Main
 
