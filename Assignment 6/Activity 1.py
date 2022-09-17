@@ -3,17 +3,19 @@
 
 
 def calculateWeekly_pay(hours, rate):
-    weekly_pay = hours*rate
+    
+    
+    weekly_pay = hours * rate
     
     return weekly_pay
     
 def calculateMonthly_pay(weekly_pay):
-    monthly_pay= weekly_pay*4
+    monthly_pay= weekly_pay * 4
     
     return monthly_pay
     
 def calculateYearly_pay(weekly_pay):
-    yearly_pay= weekly_pay*52
+    yearly_pay= weekly_pay * 52
     
     return yearly_pay  
 
@@ -28,7 +30,9 @@ def getRate():
     
     return rate
 
-def getHours():
+def getHours(): 
+    
+    
     print("Enter hours number")
     hours=float(input())
     
