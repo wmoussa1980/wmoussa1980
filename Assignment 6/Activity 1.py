@@ -43,11 +43,12 @@ def displayResult(weekly_pay, monthly_pay, yearly_pay):
        
 # Main
 def main():
-    hours= getHours()
-    rate= getRate()
-    weekly_pay= calculateWeekly_pay(hours, rate)
-    monthly_pay= calculateMonthly_pay(weekly_pay)
-    yearly_pay= calculateYearly_pay(weekly_pay)
+    hours = getHours()
+    rate = getRate()
+    weekly_pay = calculateWeekly_pay(hours, rate)
+    monthly_pay = calculateMonthly_pay(weekly_pay)
+    yearly_pay = calculateYearly_pay(weekly_pay)
     displayResult(weekly_pay, monthly_pay, yearly_pay)
 
+    
 main()
