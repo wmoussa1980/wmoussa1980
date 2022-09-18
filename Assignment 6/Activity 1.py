@@ -2,39 +2,39 @@
 # References:Programming Fundamentals – 2nd Edition
 
 
-def calculateWeekly_pay(hours, rate):
+def calculate_weekly(hours, rate):
     weekly_pay = hours * rate
     
     return weekly_pay
   
     
-def calculateMonthly_pay(weekly_pay):
+def calculate_monthly(weekly_pay):
     monthly_pay = weekly_pay * 4
     
     return monthly_pay
    
     
-def calculateYearly_pay(weekly_pay):
+def calculate_yearly(weekly_pay):
     yearly_pay = weekly_pay * 52
     
     return yearly_pay  
 
 
-def getRate():
+def get_rate():
     print("Enter rate per hour")
     rate = float(input())
     
     return rate
 
 
-def getHours():
+def get_hours():
     print("Enter hours number")
     hours = float(input())
     
     return hours
 
 
-def displayResult(weekly_pay, monthly_pay, yearly_pay):
+def display_result(weekly_pay, monthly_pay, yearly_pay):
     print("Weekly pay ", str(weekly_pay))
     print("Monthly pay ", float(monthly_pay))
     print("Yearly pay ", float(yearly_pay))
@@ -44,12 +44,12 @@ def displayResult(weekly_pay, monthly_pay, yearly_pay):
 
 def main():
     
-    hours = getHours()
-    rate = getRate()
-    weekly_pay = calculateWeekly_pay(hours, rate)
-    monthly_pay = calculateMonthly_pay(weekly_pay)
-    yearly_pay = calculateYearly_pay(weekly_pay)
-    displayResult(weekly_pay, monthly_pay, yearly_pay)
+    hours = get_hours()
+    rate = get_rate()
+    weekly_pay = calculate_weekly(hours, rate)
+    monthly_pay = calculate_monthly(weekly_pay)
+    yearly_pay = calculate_yearly(weekly_pay)
+    display_result(weekly_pay, monthly_pay, yearly_pay)
 
     
 main()
