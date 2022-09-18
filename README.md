@@ -23,3 +23,5 @@ In this assignment, I practiced the knowledge I learned in chapter 2 about data 
 
 In this chapter, I learned about function and practiced my learning by using four functions in our fifth assignment. A function is a group of related statements designed specifically to perform a specific task. Functions make programming easier to break a large problem into smaller parts. The function allows programmers to develop an application in a modular way. As our program grows larger and larger, functions make it more organized and manageable. Furthermore, it avoids repetition and makes the code reusable. Also, I learned about programming style and how is important in programming. Programming style is how you format your code so that it is easy to read and thus easier to understand. Good style includes the use of whitespace, comments, indentation, and naming.
 
+
+## Assignment 6
