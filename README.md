@@ -25,3 +25,5 @@ In this chapter, I learned about function and practiced my learning by using fou
 
 
 ## Assignment 6
+
+In this session, I used my previous learning from the last session to create multiple functions without the help of Flowgorithm to generate the source code. Also, I learned how important the main function in the program we are working on. The special or uniqueness of main as a function is that this is where the program starts executing code and this is where it usually stops executing code. It is often the first function defined in a program. The main function in Python acts as the point of execution for any program. Defining the main function in Python programming is a necessity to start the execution of the program, it usually controls program execution by directing the calls to other functions in the program![image](https://user-images.githubusercontent.com/111835462/191049154-c65ccd29-8ebe-4c37-a4f1-2a1b252610e6.png)
