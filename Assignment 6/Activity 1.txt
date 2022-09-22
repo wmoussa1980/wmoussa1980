@@ -4,121 +4,118 @@ This program will prompt the user for hours worked per week and rate per hour an
 
 Main Program
 
-	    Get Hours
+    Get Hours
 
-	    Get Rate
+    Get Rate
 
-	    Calculate Weekly pay
+    Calculate Weekly pay
 
-      Calculate Monthly pay
+    Calculate Monthly pay
             
-      Calculate Yearly pay
+    Calculate Yearly pay
 
-	    Display Result
+    Display Result
 
  
 Get Rate
 
-	    Parameters:
+    Parameters:
 
-		        None
+        None
 
-	    Process:
+    Process:
 
-		        Display Prompt
+        Display Prompt
 
-		        Get Rate 
+        Get Rate 
 
-	    Return Value:
+    Return Value:
+    
+        Rate
 
-		        Rate
 
 Get Hours
 
-	    Parameters:
+    Parameters:
 
-		          None
+        None
 
-	    Process:
+    Process:
 
-		          Display Prompt
+        Display Prompt
 
-		          Get Hours
+        Get Hours
 
-	    Return Value:
+    Return Value:
 
-		          Hours
-
-
+        Hours
 
 
 Calculate Weekly pay
 
-	    Parameters:
+    Parameters:
 
-		          Hours
+        Hours
     		
-		          Rate
+        Rate
 	
-	    Process:
+    Process:
 
-		          Calculate Weekly pay (rate*hours)
+        Calculate Weekly pay (rate*hours)
 
-	    Return Value:
+    Return Value:
 
-		          Weekly pay
+        Weekly pay
 
 
+Calculate Monthly pay
 
- Calculate Monthly pay
+    Parameters:
 
-	    Parameters:
-
-		          Weekly pay
+        Weekly pay
 	
-	    Process:
+    Process:
 
-		          Calculate Monthly pay (weekly pay*4)
+        Calculate Monthly pay (weekly pay*4)
 
-	    Return Value:
+    Return Value:
 
-		          Monthly pay
+        Monthly pay
 
 
 Calculate Yearly pay
 
-	    Parameters:
+    Parameters:
+    
+        Weekly pay
+    
+    Process:
 
-		          Weekly pay
-	
-	    Process:
+        Calculate Yearly pay (weekly pay*52)
 
-		          Calculate Yearly pay (weekly pay*52)
+    Return Value:
 
-	    Return Value:
-
-		          Yearly pay
-
+        Yearly pay
 
 
 Display Result
 
-	    Parameters:
+    Parameters:
 
-		          Weekly pay
+        Weekly pay
 
-		          Monthly pay
+	Monthly pay
 		
-		          Yearly pay
+	Yearly pay
 
-	    Process:
+    Process:
 
-		        Display Weekly pay
+	Display Weekly pay
 	
-		        Display Monthly pay
+	Display Monthly pay
+        
+	Display Yearly pay
 
-		        Display Yearly pay
+    Return Value:
 
-Return Value:
-
-	          None
+        None
