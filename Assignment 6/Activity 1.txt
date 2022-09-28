@@ -1,7 +1,6 @@
 This program will prompt the user for hours worked per week and rate per hour and then calculate the input and display their weekly, monthly, and annual gross pay.
 
 
-
 Main Program
 
     Get Hours
