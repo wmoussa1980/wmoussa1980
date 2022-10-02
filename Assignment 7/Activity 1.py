@@ -10,7 +10,7 @@ def calculate_weekly(hours, rate):
   
     
 def over(hours, rate):
-    over_time =(40 * rate) + ((hours-40) * 1.5)*rate
+    over_time = (40 * rate) + ((hours - 40) * 1.5) * rate
     return over_time
 
 
@@ -48,6 +48,8 @@ def main():
     elif hours > 40:
         over_time = over(hours, rate)
         display_result(over_time)
-           
+   
+
 main()
+
 
