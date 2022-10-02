@@ -48,8 +48,5 @@ def main():
     elif hours> 40:
         over_time = over(hours, rate)
         display_result(over_time)
-        
-    
-    
+           
 main()
-
