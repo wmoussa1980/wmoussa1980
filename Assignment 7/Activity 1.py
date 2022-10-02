@@ -9,7 +9,7 @@ def calculate_weekly(hours, rate):
     return weekly_pay
   
     
-def over(hours, rate):
+def over_hours(hours, rate):
     over_time = (40 * rate) + ((hours - 40) * 1.5) * rate
     return over_time
 
@@ -30,7 +30,7 @@ def display_result(over_time):
     print("Weekly pay with Overtime is ", float(over_time))
     
     
-def result(weekly_pay):
+def result_regular(weekly_pay):
     print("Weekly pay is ", str(weekly_pay))
 
 
@@ -39,17 +39,15 @@ def main():
     rate = get_rate()
     
     weekly_pay = calculate_weekly(hours, rate)
-    over_time = over(hours, rate)
+    over_time = over_hours(hours, rate)
     
     if hours <= 40:
         weekly_pay = calculate_weekly(hours, rate)
-        result(weekly_pay)
+        result_regular(weekly_pay)
 
     elif hours > 40:
-        over_time = over(hours, rate)
+        over_time = over_hours(hours, rate)
         display_result(over_time)
    
 
 main()
-
-
