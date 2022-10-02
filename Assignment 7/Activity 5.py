@@ -24,7 +24,7 @@ def getName():
 # Main
 # References:
 # Programming Fundamentals – 2nd Edition
-# Wikipedia: Aging in dogs
+# https://en.wikipedia.org/wiki/Aging_in_dogs
 # This program will prompt the user for the name of their dog and its age in human years.
 name = getName()
 age = getAge()
