@@ -4,13 +4,14 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-01 10:44:51 PM"/>
+        <attribute name="saved" value="2022-10-01 10:50:57 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTA5LTExOzEwOjM1OjMwIFBNOzM3MTM="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTAxOzEwOjQ0OjUxIFBNOzY7MzgyMA=="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTAxOzEwOjUwOjU3IFBNOzg7MzgyNQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text=" References:&#13;&#10;   Programming Fundamentals &#8211; 2nd Edition&#13;&#10;Wikipedia: Aging in dogs&#13;&#10;"/>
             <comment text="This program will prompt the user for the name of their dog and its age in human years."/>
             <declare name="age" type="Real" array="False" size=""/>
             <declare name="name" type="String" array="False" size=""/>
