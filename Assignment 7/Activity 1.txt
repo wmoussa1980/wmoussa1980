@@ -1,1 +1,125 @@
+This program will prompt the user for hours worked per week and rate per hour and then calculate the input and display their weekly, monthly, and annual gross pay.
 
+
+Main Program
+
+    Get Hours
+
+    Get Rate
+
+    Calculate Weekly pay
+
+    Calculate Over time
+    
+    Either:
+
+        Hours < = 40
+
+        Calculate Weekly pay
+
+        Display Regular Result
+
+    Or:
+
+        Hours > 40
+
+        Calculate Over time 
+
+        Display Result            
+    
+ 
+Get Rate
+
+    Parameters:
+
+        None
+
+    Process:
+
+        Display Prompt
+
+        Get Rate 
+
+    Return Value:
+    
+        Rate
+
+
+Get Hours
+
+    Parameters:
+
+        None
+
+    Process:
+
+        Display Prompt
+
+        Get Hours
+
+    Return Value:
+
+        Hours
+
+
+Calculate Weekly pay
+
+    Parameters:
+
+        Hours
+    		
+        Rate
+	
+    Process:
+
+        Calculate Weekly pay (rate*hours)
+
+    Return Value:
+
+        Weekly pay
+
+
+Calculate Over time 
+
+    Parameters:
+
+        Hours
+        
+        Rate
+	
+    Process:
+
+        Calculate Over time ((40 * rate) + ((hours - 40) * 1.5) * rate)
+
+    Return Value:
+
+        Over time
+
+
+Regular Result
+
+    Parameters:
+    
+        Weekly pay
+        
+    Process:
+
+      	Display Weekly pay
+
+    Return Value:
+
+        None
+
+Display Result
+
+    Parameters:
+    
+        Over time
+        
+    Process:
+
+      	Display Over time
+
+    Return Value:
+
+        None
