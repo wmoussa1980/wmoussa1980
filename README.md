@@ -27,3 +27,9 @@ In this chapter, I learned about function and practiced my learning by using fou
 ## Assignment 6
 
 In this session, I used my previous learning from the last session to create multiple functions without the help of Flowgorithm to generate the source code. Also, I learned how important the main function in the program we are working on. The special or uniqueness of main as a function is that this is where the program starts executing code and this is where it usually stops executing code. It is often the first function defined in a program. The main function in Python acts as the point of execution for any program. Defining the main function in Python programming is a necessity to start the execution of the program, it usually controls program execution by directing the calls to other functions in the program.
+
+
+## Assignment 7
+
+In this chapter we learned about Structured programming is a program written with only the structured programming constructions: sequence, repetition, and selection.  A selection structure, also called an "If-Then-Else" structure allows one set of statements to be executed if a condition is true and another set of actions to be executed if a condition is false. Also, in this chapter we learned about Relational Operators. A relational operator is used to compare two values. Based on the operator and values, the operator returns either True or False. They allow us compare values to determine if one is greater than, less than, equal to, or not equal to another.
+
