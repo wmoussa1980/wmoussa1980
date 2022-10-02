@@ -41,7 +41,7 @@ def main():
     weekly_pay = calculate_weekly(hours, rate)
     over_time = over(hours, rate)
     
-    if hours < = 40:
+    if hours <= 40:
         weekly_pay = calculate_weekly(hours, rate)
         result(weekly_pay)
 
