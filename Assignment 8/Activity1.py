@@ -1,6 +1,6 @@
 def forloop(value, number):
     for n in range(1, number + 1, 1):
-        print(str(value) + "x" + str(n) + "=" + str(value * n))
+        print(str(value) + " x " + str(n) + " = " + str(value * n))
 
 def getnumber():
     print("enter expresion number")

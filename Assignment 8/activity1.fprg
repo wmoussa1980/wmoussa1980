@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-09 04:06:50 PM"/>
+        <attribute name="saved" value="2022-10-09 04:26:38 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzAxOjQ2OjEzIFBNOzM3MTU="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzA0OjA2OjUwIFBNOzM7MzgyNQ=="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzA0OjI2OjM4IFBNOzU7MzgzNQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,9 +24,9 @@
             <parameter name="number" type="Real" array="False"/>
         </parameters>
         <body>
-            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="n" type="Real" array="False" size=""/>
             <for variable="n" start="1" end="number" direction="inc" step="1">
-                <output expression="value &amp;&quot;x&quot;&amp; n&amp;&quot;=&quot; &amp; value*n" newline="True"/>
+                <output expression="value &amp;&quot; x &quot;&amp; n&amp;&quot; = &quot; &amp; value*n" newline="True"/>
             </for>
         </body>
     </function>
