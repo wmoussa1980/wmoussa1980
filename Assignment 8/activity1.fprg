@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wissammoussa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-09 04:06:50 PM"/>
+        <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzAxOjQ2OjEzIFBNOzM3MTU="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzA0OjA2OjUwIFBNOzM7MzgyNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="value" type="Real" array="False" size=""/>
+            <declare name="number" type="Real" array="False" size=""/>
+            <assign variable="number" expression="getnumber()"/>
+            <assign variable="value" expression="getvalue()"/>
+            <call expression="forloop(value, number)"/>
+        </body>
+    </function>
+    <function name="forloop" type="None" variable="number">
+        <parameters>
+            <parameter name="value" type="Real" array="False"/>
+            <parameter name="number" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="1" end="number" direction="inc" step="1">
+                <output expression="value &amp;&quot;x&quot;&amp; n&amp;&quot;=&quot; &amp; value*n" newline="True"/>
+            </for>
+        </body>
+    </function>
+    <function name="getnumber" type="Real" variable="number">
+        <parameters/>
+        <body>
+            <declare name="number" type="Real" array="False" size=""/>
+            <output expression="&quot;enter expresion number&quot;" newline="True"/>
+            <input variable="number"/>
+        </body>
+    </function>
+    <function name="getvalue" type="Real" variable="value">
+        <parameters/>
+        <body>
+            <declare name="value" type="Real" array="False" size=""/>
+            <output expression="&quot;enter value&quot;" newline="True"/>
+            <input variable="value"/>
+        </body>
+    </function>
+</flowgorithm>
