@@ -1,1 +1,33 @@
+Main Program
+    Get value
+    Get Expressions value
+    For Loop
 
+Get Value
+    Parameters:
+        None
+    Process:
+        Display prompt for value
+        Get value
+    Return Value:
+        Value
+        
+Get Expressions
+    Parameters:
+        None
+    Process:
+        Display prompt for expressions
+        Get expressions
+    Return Value:
+        Expressions
+
+For Loop
+    Parameters:
+        Value
+        Expressions
+    Process:
+        Initialize count
+        Loop for count from one to expressions by increment one
+            Display value*increment one
+    Return Value:
+        None
