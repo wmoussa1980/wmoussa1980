@@ -1,7 +1,7 @@
 Main Program
     Get value
     Get Expressions value
-    For Loop
+    Process Expressions
 
 Get Value
     Parameters:
@@ -21,13 +21,23 @@ Get Expressions
     Return Value:
         Expressions
 
-For Loop
+Process Expressions
     Parameters:
         Value
         Expressions
     Process:
         Initialize count
         Loop for count from one to expressions by increment one
-            Display value*increment one
+            Display expression
+    Return Value:
+        None
+
+Display Expression
+    Parameters:
+        Value
+        Count
+        Product
+    Process:
+        Display expression
     Return Value:
         None
