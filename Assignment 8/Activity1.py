@@ -1,6 +1,6 @@
 ﻿def displayExpression(value, count, product):
     product = value * count
-    print(str(value) + " * " + str(count) + "  =  " + str(product))
+    print(str(value) + " * " + str(count) + " = " + str(product))
 
 def getexpressions():
     print("enter expressions")
