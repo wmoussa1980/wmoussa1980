@@ -33,3 +33,7 @@ In this session, I used my previous learning from the last session to create mul
 
 In this chapter we learned about Structured programming is a program written with only the structured programming constructions: sequence, repetition, and selection.  A selection structure, also called an "If-Then-Else" structure allows one set of statements to be executed if a condition is true and another set of actions to be executed if a condition is false. Also, in this chapter we learned about Relational Operators. A relational operator is used to compare two values. Based on the operator and values, the operator returns either True or False. They allow us compare values to determine if one is greater than, less than, equal to, or not equal to another.
 
+
+## Assignment 8
+
+In this session, we learned about the use of loops in programming languages. A loop is a sequence of instructions that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number. In this session we used for loop for our assignment, for loops are used when you have a block of code which you want to repeat a fixed number of times. The for-loop is always used in combination with an iterable object, like a list or a range. The Python for statement iterates over the members of a sequence in order, executing the block each time.
