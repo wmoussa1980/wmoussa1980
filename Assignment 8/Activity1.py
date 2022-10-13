@@ -21,7 +21,8 @@ def processExpressions(value, expressions):
 
 # Main
 # # This program will ask the user to enter the value and the number of expressions to be displayed and then uses a loop to generate a list of multiplication expressions for a given value.
-# 
+
+
 # # References:
 # #   Programming Fundamentals – 2nd Edition
 value = getvalue()
