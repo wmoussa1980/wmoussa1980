@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wissammoussa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-12 10:12:09 PM"/>
+        <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzAxOjQ2OjEzIFBNOzM3MTU="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTEyOzEwOjEyOjA5IFBNOzEzOzM4NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="# This program will ask the user to enter the value and the number of expressions to be displayed and then uses a loop to generate a list of multiplication expressions for a given value.&#13;&#10;&#13;&#10;# References:&#13;&#10;#   Programming Fundamentals &#8211; 2nd Edition&#13;&#10;"/>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <declare name="expresions" type="Integer" array="False" size=""/>
+            <declare name="process" type="Integer" array="False" size=""/>
+            <assign variable="value" expression="getvalue()"/>
+            <assign variable="expresions" expression="getexpressions()"/>
+            <call expression="processExpressions(value, expresions)"/>
+        </body>
+    </function>
+    <function name="displayExpression" type="None" variable="">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+            <parameter name="count" type="Integer" array="False"/>
+            <parameter name="product" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <assign variable="product" expression="value*count"/>
+            <output expression="value &amp;&quot; * &quot;&amp; count&amp;&quot; = &quot; &amp;product" newline="True"/>
+        </body>
+    </function>
+    <function name="getexpressions" type="Integer" variable="expressions">
+        <parameters/>
+        <body>
+            <declare name="expressions" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter expressions&quot;" newline="True"/>
+            <input variable="expressions"/>
+        </body>
+    </function>
+    <function name="getvalue" type="Integer" variable="value">
+        <parameters/>
+        <body>
+            <declare name="value" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter value&quot;" newline="True"/>
+            <input variable="value"/>
+        </body>
+    </function>
+    <function name="processExpressions" type="None" variable="count">
+        <parameters>
+            <parameter name="value" type="Integer" array="False"/>
+            <parameter name="expressions" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <declare name="product" type="Integer" array="False" size=""/>
+            <for variable="count" start="1" end="expressions" direction="inc" step="1">
+                <assign variable="product" expression="value*count"/>
+                <call expression="displayExpression(value,count,product)"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
