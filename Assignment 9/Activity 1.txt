@@ -29,7 +29,7 @@ Process Expressions
         Initialize count
         Loop while count < expressions 
             Increment one
-            Display expression
+            Display Expression
     Return Value:
         None
 
@@ -39,6 +39,6 @@ Display Expression
         Count
         Product
     Process:
-        Display expression
+        Display Expression
     Return Value:
         None
