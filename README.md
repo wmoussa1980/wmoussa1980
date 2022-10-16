@@ -37,3 +37,7 @@ In this chapter we learned about Structured programming is a program written wit
 ## Assignment 8
 
 In this session, we learned about the use of loops in programming languages. A loop is a sequence of instructions that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number. In this session we used for loop for our assignment, for loops are used when you have a block of code which you want to repeat a fixed number of times. The for-loop is always used in combination with an iterable object, like a list or a range. The Python for statement iterates over the members of a sequence in order, executing the block each time.
+
+
+## Assignment 9
+
