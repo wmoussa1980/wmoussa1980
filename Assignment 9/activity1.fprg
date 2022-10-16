@@ -4,14 +4,14 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-12 10:12:09 PM"/>
+        <attribute name="saved" value="2022-10-16 02:36:12 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzAxOjQ2OjEzIFBNOzM3MTU="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTEyOzEwOjEyOjA5IFBNOzEzOzM4NjY="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTE2OzAyOjM2OjEyIFBNOzE3OzM4NzU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text="# This program will ask the user to enter the value and the number of expressions to be displayed and then uses a loop to generate a list of multiplication expressions for a given value.&#13;&#10;&#13;&#10;# References:&#13;&#10;#   Programming Fundamentals &#8211; 2nd Edition&#13;&#10;"/>
+            <comment text="# This program will ask the user to enter the value and the number of expressions to be displayed and then uses while loop to generate a list of multiplication expressions for a given value.&#13;&#10;&#13;&#10;# References:&#13;&#10;#   Programming Fundamentals &#8211; 2nd Edition&#13;&#10;"/>
             <declare name="value" type="Integer" array="False" size=""/>
             <declare name="expresions" type="Integer" array="False" size=""/>
             <declare name="process" type="Integer" array="False" size=""/>
@@ -55,10 +55,12 @@
         <body>
             <declare name="count" type="Integer" array="False" size=""/>
             <declare name="product" type="Integer" array="False" size=""/>
-            <for variable="count" start="1" end="expressions" direction="inc" step="1">
+            <assign variable="count" expression="0"/>
+            <while expression="count &lt; expressions">
                 <assign variable="product" expression="value*count"/>
+                <assign variable="count" expression="count + 1"/>
                 <call expression="displayExpression(value,count,product)"/>
-            </for>
+            </while>
         </body>
     </function>
 </flowgorithm>
