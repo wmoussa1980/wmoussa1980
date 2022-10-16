@@ -3,13 +3,13 @@
     print(str(value) + " * " + str(count) + " = " + str(product))
 
 def getexpressions():
-    print("enter expressions")
+    print("Enter expressions")
     expressions = int(input())
     
     return expressions
 
 def getvalue():
-    print("enter value")
+    print("Enter value")
     value = int(input())
     
     return value
