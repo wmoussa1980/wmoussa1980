@@ -41,3 +41,4 @@ In this session, we learned about the use of loops in programming languages. A l
 
 ## Assignment 9
 
+In this session, we continued learning about the use of loops in programming languages. A loop is a sequence of instructions that is continually repeated until a certain condition is reached. In this session we used while loop for our assignment, while Loops are used to execute a block of statements repeatedly until a given condition is satisfied. And when the condition becomes false, the line immediately after the loop in the program is executed. The while loop in Python is used to iterate over a block of code as long as the test expression (condition) is true. In Python, the body of the while loop is determined through indentation.
