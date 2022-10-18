@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-16 02:36:12 PM"/>
+        <attribute name="saved" value="2022-10-17 10:24:10 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTA5OzAxOjQ2OjEzIFBNOzM3MTU="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTE2OzAyOjM2OjEyIFBNOzE3OzM4NzU="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTE3OzEwOjI0OjEwIFBNOzIwOzM4NjQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -27,7 +27,6 @@
             <parameter name="product" type="Integer" array="False"/>
         </parameters>
         <body>
-            <assign variable="product" expression="value*count"/>
             <output expression="value &amp;&quot; * &quot;&amp; count&amp;&quot; = &quot; &amp;product" newline="True"/>
         </body>
     </function>
@@ -55,11 +54,11 @@
         <body>
             <declare name="count" type="Integer" array="False" size=""/>
             <declare name="product" type="Integer" array="False" size=""/>
-            <assign variable="count" expression="0"/>
-            <while expression="count &lt; expressions">
+            <assign variable="count" expression="1"/>
+            <while expression="count &lt;= expressions">
                 <assign variable="product" expression="value*count"/>
-                <assign variable="count" expression="count + 1"/>
                 <call expression="displayExpression(value,count,product)"/>
+                <assign variable="count" expression="count + 1"/>
             </while>
         </body>
     </function>

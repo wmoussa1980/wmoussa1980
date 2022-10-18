@@ -1,25 +1,24 @@
 ﻿def displayExpression(value, count, product):
-    product = value * count
     print(str(value) + " * " + str(count) + " = " + str(product))
 
 def getexpressions():
-    print("Enter expressions")
+    print("enter expressions")
     expressions = int(input())
     
     return expressions
 
 def getvalue():
-    print("Enter value")
+    print("enter value")
     value = int(input())
     
     return value
 
 def processExpressions(value, expressions):
-    count = 0
-    while count < expressions:
+    count = 1
+    while count <= expressions:
         product = value * count
-        count = count + 1
         displayExpression(value, count, product)
+        count = count + 1
 
 # Main
 # # This program will ask the user to enter the value and the number of expressions to be displayed and then uses while loop to generate a list of multiplication expressions for a given value.
