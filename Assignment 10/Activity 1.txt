@@ -2,6 +2,7 @@ Main Program
     Get Grade
     Process input
     calculate average
+    Display Average
 
 Get Grade
     Parameters:
