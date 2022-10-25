@@ -1,1 +1,48 @@
+Main Program
+    Get Grade
+    Process input
+    calculate average
 
+Get Grade
+    Parameters:
+        None
+    Process:
+        Display prompt for grade
+        Get grade
+    Return Value:
+        Grade
+        
+Calculate average
+    Parameters:
+        total
+        count
+    Process:
+        Average=total/count
+    Return Value:
+        Average
+
+Process grade input
+    Parameters:
+        total
+        count
+    Process:
+        Initialize count
+        Inialize total
+        Loop while True
+            Get Grade
+            total = total + grade
+            Increment count by one
+            if grade<0 Break
+    Return Value:
+        total
+        count
+
+Display Average
+    Parameters:
+        Total
+        Count
+        Average
+    Process:
+        Display Average
+    Return Value:
+        None
