@@ -1,4 +1,4 @@
-def calculateaverage(count, total):
+﻿def calculateaverage(count, total):
     average = float(total) / count
     
     return average
@@ -26,4 +26,7 @@ def processinput():
     return average
 
 # Main
+# This program will ask the user to enter grade scores and use a loop to request each score and add it to a total. Also will continue accepting scores until the user enters either a negative value. Finally, the program will calculate and display the average for the entered scores.
+# #  References:
+# #    Programming Fundamentals – 2nd Edition
 processinput()
