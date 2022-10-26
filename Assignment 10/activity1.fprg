@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wissammoussa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-26 09:36:32 AM"/>
+        <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTIyOzA5OjM2OjEwIFBNOzM3MTQ="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTI2OzA5OjM2OjMyIEFNOzc7MzgyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="grade" type="Integer" array="False" size=""/>
+            <declare name="average" type="Real" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <call expression="processinput()"/>
+        </body>
+    </function>
+    <function name="calculateaverage" type="Real" variable="average">
+        <parameters>
+            <parameter name="count" type="Integer" array="False"/>
+            <parameter name="total" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="average" type="Real" array="False" size=""/>
+            <assign variable="average" expression="total/count"/>
+        </body>
+    </function>
+    <function name="displayaverage" type="None" variable="">
+        <parameters>
+            <parameter name="total" type="Integer" array="False"/>
+            <parameter name="count" type="Integer" array="False"/>
+            <parameter name="average" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;The average is &quot;&amp;average" newline="True"/>
+        </body>
+    </function>
+    <function name="getgrade" type="Integer" variable="grade">
+        <parameters/>
+        <body>
+            <declare name="grade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter grade (enter negative value to stop) &quot;" newline="True"/>
+            <input variable="grade"/>
+        </body>
+    </function>
+    <function name="processinput" type="Integer" variable="average">
+        <parameters/>
+        <body>
+            <declare name="grade" type="Integer" array="False" size=""/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="total" expression="0"/>
+            <assign variable="count" expression="0"/>
+            <declare name="average" type="Real" array="False" size=""/>
+            <do expression="grade &gt;= 0">
+                <assign variable="grade" expression="getgrade()"/>
+                <assign variable="total" expression="total+grade"/>
+                <assign variable="count" expression="count+1"/>
+            </do>
+            <assign variable="average" expression="calculateaverage(count,total)"/>
+            <call expression="displayaverage(count,total,average)"/>
+        </body>
+    </function>
+</flowgorithm>
