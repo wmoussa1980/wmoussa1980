@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-26 10:01:07 AM"/>
+        <attribute name="saved" value="2022-10-26 09:21:24 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTIyOzA5OjM2OjEwIFBNOzM3MTQ="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTI2OzEwOjAxOjA3IEFNOzk7MzgwOQ=="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTI2OzA5OjIxOjI0IFBNOzEwOzM4NzM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -59,8 +59,13 @@
             <declare name="average" type="Real" array="False" size=""/>
             <do expression="grade &gt;= 0">
                 <assign variable="grade" expression="getgrade()"/>
-                <assign variable="total" expression="total+grade"/>
-                <assign variable="count" expression="count+1"/>
+                <if expression="grade&gt;=0">
+                    <then>
+                        <assign variable="count" expression="count+1"/>
+                        <assign variable="total" expression="total+grade"/>
+                    </then>
+                    <else/>
+                </if>
             </do>
             <assign variable="average" expression="calculateaverage(count,total)"/>
             <call expression="displayaverage(count,total,average)"/>

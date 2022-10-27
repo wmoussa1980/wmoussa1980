@@ -17,8 +17,9 @@ def processinput():
     count = 0
     while True:    #This simulates a Do Loop
         grade = getgrade()
-        total = total + grade
-        count = count + 1
+        if grade >= 0:
+            count = count + 1
+            total = total + grade
         if not(grade >= 0): break   #Exit loop
     average = calculateaverage(count, total)
     displayaverage(count, total, average)
