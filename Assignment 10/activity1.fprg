@@ -4,15 +4,15 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="wissammoussa"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-26 09:21:24 PM"/>
+        <attribute name="saved" value="2022-10-26 10:27:44 PM"/>
         <attribute name="created" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTIyOzA5OjM2OjEwIFBNOzM3MTQ="/>
-        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTI2OzA5OjIxOjI0IFBNOzEwOzM4NzM="/>
+        <attribute name="edited" value="d2lzc2FtbW91c3NhO1dJU1NBTU1PVVNTMkFFOTsyMDIyLTEwLTI2OzEwOjI3OjQ0IFBNOzExOzM4NzQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <comment text="This program will ask the user to enter grade scores and use a loop to request each score and add it to a total. Also will continue accepting scores until the user enters either a negative value. Finally, the program will calculate and display the average for the entered scores."/>
-            <comment text="#  References:&#13;&#10;#    Programming Fundamentals &#8211; 2nd Edition"/>
+            <comment text="#  References:&#13;&#10;#    Programming Fundamentals &#8211; 2nd Edition&#13;&#10;#    Professor Dave Braunschweig "/>
             <declare name="grade" type="Integer" array="False" size=""/>
             <declare name="average" type="Real" array="False" size=""/>
             <declare name="count" type="Integer" array="False" size=""/>
