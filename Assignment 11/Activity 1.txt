@@ -37,12 +37,13 @@ Process input
         Month array
     Process:  
         Loop while 1<=months<=12 and years > 0
+        Display month
         if leap year = true 
             month 2 =29
            else
            month 2 = 28
           Loop for index from 0 to array length by 1 
-          diplay month and days
+          diplay days
         
     Return Value:
         none
