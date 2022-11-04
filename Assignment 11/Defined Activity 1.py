@@ -1,64 +1,58 @@
-def get_month():
+# Comments go here ...
 
+# References go here ...
+
+
+def get_month():
     month = int(input("Enter month (1-12): "))
     return month
 
-def get_year():
-    
+
+def get_year():    
     year = int(input("Enter year: "))
     return year   
 
-def get_month_name(month):
-    
-    month_name = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-    month_name = month_name[month-1]
+
+def get_month_name(month):    
+    month_name = ["January", "February", "March", "April", "May", "June", 
+        "July", "August", "September", "October", "November", "December"]
+
+    month_name = month_name[month - 1]
     return month_name
 
+
 def check_leap_year(year):
-
-    if year % 4 == 0:
-
+    if year % 400 == 0 or (year % 100 != 0 and year % 4 == 0):
         return True
-
     else:
-
         return False
 
 
 def get_month_days(month, year):
-    leap_year = check_leap_year
-    month_days = [31, (28,29), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    if leap_year == True:
-        month_days = month_days[month-1][1]
-    else:
-         month_days = month_days[month-1][0]
-                    
-    
+    days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+    leap_year = check_leap_year(year)
+    if leap_year:
+        days[1] = 29
+
+    month_days = days[month - 1]
     return month_days
 
 
+def display_results(month_name, year, month_days):
+    print(f"{month_name} {year} has {month_days} days")
+
 
 def main():
-    
-    while(True):
+    while True:
         year = get_year()
         month = get_month()
+        if year <= 0 or month < 1 or month > 12:
+            break
+
         month_name = get_month_name(month)
         month_days = get_month_days(month, year)
-        
-        print()
+        display_results(month_name, year, month_days)
 
-        if(year > 0 and month > 0 and month <= 12):
-
-
-           print(month_name)
-           print(month_days)
-
-        else: 
-            print("Invalid Year or Month entered!!")
-            break
-    
-
-    
 
 main()    
