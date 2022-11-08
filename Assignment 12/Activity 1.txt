@@ -1,17 +1,24 @@
 This program will ask the user to enter grade scores and then use a loop to request each score and add it to a dynamic array. After the scores are entered the program will calculate and display the maximum, minimum, and average for the entered scores.
 
-
 Main Program
-    Loop
-        Get score
+    Get scores
+    Calculate maximum
+    Calculate minimum
+    Calculate average
+    Display Results
+
+Get Scores:
+    Parameters:
+        None
+    Process:
         Initialize empty array
+        Loop
+            Get score
+            If invalid input:
+                Break
             Append a random number to the array
-        If invalid input:
-            Break
-        Calculate maximum
-        Calculate minimum
-        Calculate average
-        Display Results
+    Return Value:
+        Scores
 
 Get Score
     Parameters:
@@ -24,7 +31,7 @@ Get Score
    
  Calculate Average
     Parameters:
-        Score
+        Scores
     Process:
         Initialize total
         Loop for index from 0 to array length by 1
@@ -35,7 +42,7 @@ Get Score
         
 Calculate maximum
     Parameters:
-        score
+        scores
     Process:
         maximum = max(score)
     Return Value:
@@ -43,7 +50,7 @@ Calculate maximum
 
 Calculate minimum
     Parameters:
-        score
+        scores
     Process:
         minimum = min(score)
     Return Value:
