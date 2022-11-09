@@ -1,4 +1,4 @@
-# This program will ask the user to enter grade scores and then use a loop to request each score and add it to a dynamic array. After the scores are entered the program will calculate and display the maximum, minimum, and average for the entered scores.
+# This program will ask the user to enter grade scores and then use a loop to request each score and add it to a dynamic array.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
 # #    Professor Dave Braunschweig
@@ -7,7 +7,7 @@ def get_scores():
     scores = [] 
     while True: 
         score = get_score()
-        if score<0:
+        if score < 0:
             break
         else:
             scores.append(score)
@@ -51,5 +51,7 @@ def main():
     calculate_max(scores)
     calculate_min(scores)
     display_results(average, minimum, maximum)
-  
+ 
+
 main()
+
