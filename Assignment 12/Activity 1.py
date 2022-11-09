@@ -1,4 +1,4 @@
-# This program will ask the user to enter grade scores and then use a loop to request each score and add it to a dynamic array.
+# This program will ask the user to enter grade scores and add it to a dynamic array.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
 # #    Professor Dave Braunschweig
@@ -54,4 +54,3 @@ def main():
  
 
 main()
-
