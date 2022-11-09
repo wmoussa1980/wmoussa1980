@@ -51,3 +51,7 @@ In this session, we continued learning about the use of loops in programming lan
 ## Assignment 11
 
 In this chapter we learned about arrays and how they are very useful when working with large amounts of data because arrays can hold a large number of elements. We can use arrays when we want to manipulate data of a certain type.  An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type. Arrays help maintain large sets of data under a single variable name to avoid confusion that can occur when using several variables.
+
+Assignment 12
+
+In this session, we learned about dynamic array, dynamic array is just like a normal array. The difference between the two is that the size of a dynamic array can be dynamically modified at runtime. We don’t need to specify the size of the array beforehand. In a dynamic array, once the contagious memory is filled, a bigger chunk of memory is allocated. The contents of the original array are copied to this new space, and the available slots are filled continuously. In Python, list objects are mutable. This means that we can easily add or remove an item from the list during run time without specifying any size. So, a list acts as a dynamic array in Python.
