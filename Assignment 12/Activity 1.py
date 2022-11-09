@@ -1,4 +1,4 @@
-# This program will ask the user to enter grade scores and add it to a dynamic array.
+# This program will use dynamic array.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
 # #    Professor Dave Braunschweig
