@@ -55,3 +55,8 @@ In this chapter we learned about arrays and how they are very useful when workin
 ## Assignment 12
 
 In this session, we learned about dynamic array, dynamic array is just like a normal array. The difference between the two is that the size of a dynamic array can be dynamically modified at runtime. We don’t need to specify the size of the array beforehand. In a dynamic array, once the contagious memory is filled, a bigger chunk of memory is allocated. The contents of the original array are copied to this new space, and the available slots are filled continuously. In Python, list objects are mutable. This means that we can easily add or remove an item from the list during run time without specifying any size. So, a list acts as a dynamic array in Python.
+
+## Assignment 13
+
+In this session we learned about string, a string is a sequence of characters. A character is simply a symbol that is internally stored and manipulated as a combination of 0s and 1s. This conversion of character to a number is called encoding, and the reverse process is decoding. ASCII and Unicode are some of the popular encodings used. In Python, Strings are arrays of bytes representing Unicode characters. Strings can be created by enclosing characters inside a single quote or double quotes. Assigning a string to a variable is done with the variable name followed by an equal sign and the string. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+
