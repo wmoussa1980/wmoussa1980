@@ -1,1 +1,47 @@
+This program will use string functions/methods to parse the line and print out the name in the form last name, first initial.
+
+Main Program
+    Get name
+    Process input
+    Display Result
+
+Process input:
+    Parameters:
+        name
+    Process:
+        Split name
+        Loop for word in split name
+            Split name = word.strip
+            If invalid input:
+                Display error
+            Else 
+                Display result
+    Return Value:
+        Split name
+
+Get name
+    Parameters:
+        None
+    Process:
+        Display prompt for name
+        Get name
+    Return Value:
+        name
+   
+ Display result
+    Parameters:
+        Split name
+    Process:
+        Display last name, first initial.
+    Return Value:
+       none
+        
+Display error
+    Parameters:
+        none
+    Process:
+        Display error massage
+    Return Value:
+        none
+
 
