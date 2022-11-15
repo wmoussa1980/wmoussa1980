@@ -1,4 +1,4 @@
-# This program will use string functions/methods to parse the line and print out the name in the form last name, first initial.
+# This program will use string functions/methods to parse the line.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
 #  W3schools Python Tutorial
