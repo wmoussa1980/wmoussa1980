@@ -1,3 +1,9 @@
+# This program will use string functions/methods to parse the line and print out the name in the form last name, first initial.
+# #  References:
+# #    Programming Fundamentals – 2nd Edition
+#  W3schools Python Tutorial
+
+
 def get_name():
     name = input("Please Enter your full name:")
     return name
