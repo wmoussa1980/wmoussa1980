@@ -25,8 +25,7 @@ def display_error():
     
 def main():
     name = get_name()
-    split_name(name)
-    name_split = name.split()
+    name_split = split_name(name)
     if len(name_split) == 1 or len(name_split) == 0:
         display_error()
     else:
