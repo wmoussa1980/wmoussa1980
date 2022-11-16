@@ -15,9 +15,8 @@ def split_name(name):
  
         
 def display_name(name_split):
-    print("Your name in the form of (Lastname F):{}, {}.".format(name_split[1], name_split[0][0]))
-    
-
+    print("Your name in the form of (Lastname F):")
+    print("{}, {}.".format(name_split[1], name_split[0][0]))
 
 def display_error():
     print("please provide complete name or try with space between names")
