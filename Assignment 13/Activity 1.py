@@ -4,6 +4,11 @@
 #  W3schools Python Tutorial
 
 
+def get_name():
+    name = input("Please Enter your full name:")
+    return name
+
+
 def split_name(name):
     name_split = name.split()
     return name_split
