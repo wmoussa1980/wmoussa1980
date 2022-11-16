@@ -1,7 +1,8 @@
 # This program will use string functions/methods to parse the line.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
-#  W3schools Python Tutorial
+# #    Professor Dave Braunschweig
+# #    W3schools Python Tutorial
 
 def get_name():
     name = input("Please Enter your full name:")
