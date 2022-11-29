@@ -20,13 +20,12 @@ Read file:
             If invalid content:
                 Break
             Split line into field(s)
-            Append field(s) to the array
+            Append score to the array
          Close file
          Handle exceptions
     Return Value:
         Scores
 
-   
  Calculate Average
     Parameters:
         Scores
