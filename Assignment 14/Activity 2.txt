@@ -1,1 +1,65 @@
+This program will displays high, low, and average scores based on input from scores.txt.
 
+Main Program
+    Read file
+    Calculate high
+    Calculate low
+    Calculate average
+    Display Results
+
+Read file:
+    Parameters:
+        None
+    Process:
+        Initialize empty array
+        Create exception handler
+        Open file
+        While not End-of-File
+            Read line
+          Loop
+            If invalid content:
+                Break
+            Split line into field(s)
+            Append field(s) to the array
+         Close file
+         Handle exceptions
+    Return Value:
+        Scores
+
+   
+ Calculate Average
+    Parameters:
+        Scores
+    Process:
+        Initialize total
+        Loop for index from 0 to array length by 1
+           Add array index value to total
+        Average = total / len(array)
+    Return Value:
+        average
+        
+Calculate high
+    Parameters:
+        scores
+    Process:
+        high = max(score)
+    Return Value:
+        high
+
+Calculate low
+    Parameters:
+        scores
+    Process:
+        low = min(score)
+    Return Value:
+        low
+
+ Display Results
+    Parameters:
+        high
+        low
+        Average
+    Process:
+        Display high and low and average
+    Return Value:
+        None
