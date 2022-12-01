@@ -1,3 +1,8 @@
+# This program will use string functions/methods to parse the line.
+# #  References:
+# #    Programming Fundamentals – 2nd Edition
+# #    Professor Dave Braunschweig
+# #    W3schools Python Tutorial
 
 def read_file():
     try:
