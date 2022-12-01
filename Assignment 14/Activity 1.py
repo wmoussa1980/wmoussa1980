@@ -4,7 +4,7 @@
 # #    Professor Dave Braunschweig
 # #    W3schools Python Tutorial
 
-def read_file():
+def read_file(filename):
     try:
         with open("scores.txt", "r") as file:
             file.readline()
@@ -47,7 +47,8 @@ def display_results(scores, average, minimum, maximum):
 
 
 def main():
-    scores = read_file()
+    filename = "scores.txt"
+    scores = read_file(filename)
     average = calculate_average(scores)
     high = calculate_max(scores)
     low = calculate_min(scores)
