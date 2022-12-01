@@ -11,10 +11,8 @@ def read_file():
                 split_str = content.split(',')
                 scores_array.append(int(split_str[1].rstrip()))
                 scores = scores_array
-    except Exeption as e:
-        print(e)
-        print("Error reading", "scores.text")
-    return scores
+    finally:
+        return scores
 
 
 def calculate_average(scores):
