@@ -35,8 +35,8 @@ def display_items(price, title, artist, country, year, average):
     items = 0
     for item in range(len(title)):
         items = item + 1
-        print(title[item] +' - '+ artist[item] +' - ', end = "")
-        print(country[item] +' - '+ str(price[item]) +' - '+ year[item])
+        print(title[item] + ' - ' + artist[item] + ' - ', end = "")
+        print(country[item] + ' - ' + str(price[item]) + ' - ' + year[item])
     print(items, 'items - ', "$%.2f" % average, 'average price ')
 
 
