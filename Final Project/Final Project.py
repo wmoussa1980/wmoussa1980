@@ -19,12 +19,13 @@ def read_file(filename, tags):
 
             return array
 
-    except ValueError:
-        print(ValueError)
+    except Exception as exception:
+        print(exception)
 
 
 def calculate_average(price):
-    
+    for i in range(0, len(price)):
+        price[i] = float(price[i])
     total = 0
     for n in price:
         total = total + n
@@ -36,8 +37,8 @@ def display_items(price, title, artist, country, year, average):
     items = 0
     for item in range(len(title)):
         items = item + 1
-        print(title[item] + ' - '+ artist[item] + ' - ' + country[item]
-              + ' - ' + str(price[item]) + ' - ' + year[item])
+        print(title[item]+' - '+artist[item]+' - '+country[item], end="")
+        print(' - ' + str(price[item])+' - '+year[item])
     print(items, 'items - ', "$%.2f" % average, 'average price ')
 
 
