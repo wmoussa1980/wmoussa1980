@@ -1,1 +1,54 @@
+This program will display title - artist - country - price - year based on input from cd_catalog.xml.
 
+Main Program
+    Read file
+    Create xml tags array
+    Pass parameters to read file to create five arrays
+    Calculate average
+    Display Results
+   
+
+Read file:
+    Parameters:
+        Xml tags
+    Process:
+        Initialize empty array
+        Create exception handler
+        Open file
+        While not End-of-File
+            Read line
+          Loop
+            If invalid content:
+                Break
+            Split line into field(s)
+            If line ends with xml tag
+                 Replace xml tag with empty space
+                 Append field to the array
+         Close file
+         Handle exceptions
+    Return Value:
+        array
+
+ Calculate Average
+    Parameters:
+        prices
+    Process:
+        Initialize total
+        Loop for index from 0 to array length by 1
+           Add array index value to total
+        Average = total / len(array)
+    Return Value:
+        average
+
+ Display Results
+    Parameters:
+        title
+        price
+        country
+        artist
+        year
+        Average
+    Process:
+        Display title, price, country, artist,year and average
+    Return Value:
+        None
