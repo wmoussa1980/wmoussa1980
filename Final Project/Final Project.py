@@ -1,4 +1,4 @@
-# This program will use string functions/methods to parse the line and display title - artist - country - price - year based on input from cd_catalog.xml.
+# This program will display title - artist - country - price - year based on input from cd_catalog.xml.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
 # #    Professor Dave Braunschweig
@@ -24,8 +24,6 @@ def read_file(filename, tags):
 
 
 def calculate_average(price):
-    for i in range(0, len(price)):
-        price[i] = float(price[i])
     total = 0
     for n in price:
         total = total + n
@@ -37,8 +35,8 @@ def display_items(price, title, artist, country, year, average):
     items = 0
     for item in range(len(title)):
         items = item + 1
-        print(title[item]+' - '+artist[item]+' - '+country[item], end="")
-        print(' - ' + str(price[item])+' - '+year[item])
+        print(title[item] + ' - ' + artist[item]+' - ' + country[item], end = "")
+        print(' - ' + str(price[item]) + ' - ' + year[item])
     print(items, 'items - ', "$%.2f" % average, 'average price ')
 
 
