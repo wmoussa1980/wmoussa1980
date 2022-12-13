@@ -42,11 +42,11 @@ def display_items(price, title, artist, country, year, average):
 
 def main():
     filename = 'cd_catalog.xml'
-    title_tag = ['<TITLE>', '</TITLE>']
-    artist_tag = ['<ARTIST>', '</ARTIST>']
-    prices_tag = ['<PRICE>', '</PRICE>']
-    country_tag = ['<COUNTRY>', '</COUNTRY>']
-    year_tag = ['<YEAR>', '</YEAR>']
+    title_tag = '<TITLE>', '</TITLE>'
+    artist_tag = '<ARTIST>', '</ARTIST>'
+    prices_tag = '<PRICE>', '</PRICE>'
+    country_tag = '<COUNTRY>', '</COUNTRY>'
+    year_tag = '<YEAR>', '</YEAR>'
     price = read_file(filename, prices_tag)
     title = read_file(filename, title_tag)
     artist = read_file(filename, artist_tag)
