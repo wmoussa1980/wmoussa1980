@@ -7,6 +7,8 @@
 # #    www.geeksforgeeks.org
 
 import os
+import sys
+sys.tracebacklimit = 0
 
 
 def read_file(filename, tags):
@@ -57,7 +59,8 @@ def error_handling(filename):
         print("Error: Missing or bad data.")
     except TypeError:
         print("Error: Missing or bad data.")
-
+    sys.exit(1)
+    
 
 def main():
     filename = 'plant_catalog.xml'
