@@ -1,4 +1,4 @@
-# This program will display common(botanical)-zone-light-price based on input from plant_catalog.xml.
+# This program will display xml file content based on input from plant_catalog.xml.
 # #  References:
 # #    Programming Fundamentals – 2nd Edition
 # #    Professor Dave Braunschweig
@@ -38,14 +38,14 @@ def display_items(price, common, botanical, light, zone, average):
     items = 0
     for item in range(len(common)):
         items = item + 1
-        print(common[item]+'('+botanical[item]+')'+'-', end="")
-        print(light[item]+'-' + zone[item]+'-$'+str(price[item]))
+        print(common[item] +' ('+botanical[item]+')' + ' - ', end="")
+        print(light[item] +' - ' + zone[item] + ' -$' + str(price[item]))
     print(items, 'items - ', "$%.2f" % average, 'average price ')
 
 
 def error_handling(filename):
     if os.path.getsize('plant_catalog.xml') == 0:
-        print("The file is empty")
+        print("File is empty")
     try:
         with open(filename, "r") as file:
             for line in file:
