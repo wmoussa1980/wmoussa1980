@@ -38,8 +38,8 @@ def display_items(price, common, botanical, light, zone, average):
     items = 0
     for item in range(len(common)):
         items = item + 1
-        print(common[item] +' ('+botanical[item]+')' + ' - ', end="")
-        print(light[item] +' - ' + zone[item] + ' -$' + str(price[item]))
+        print(common[item] + ' ('+botanical[item] + ')' + ' - ', end = "")
+        print(light[item] + ' - ' + zone[item] + ' -$ ' + str(price[item]))
     print(items, 'items - ', "$%.2f" % average, 'average price ')
 
 
